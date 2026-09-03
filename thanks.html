@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
+    <title>鸣谢 · 陈诗雨</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        screens: {
+          'sm': '640px',
+          'md': '769px',
+          'lg': '1025px',
+          'xl': '1280px',
+          '2xl': '1536px',
+        }
+      }
+    }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>:root{--bg-primary:#051020;--bg-secondary:#0a192f;--bg-card:rgba(17,34,64,0.8);--text-primary:#ccd6f6;--text-secondary:#8892b0;--accent:#64ffda;--accent-rgb:100,255,218;--accent2:#1e90ff;--accent2-rgb:30,144,255;--border:rgba(100,255,218,0.15);--border-hover:rgba(100,255,218,0.4);--shadow:rgba(0,0,0,0.4)}html.light{--bg-primary:#e8f0f8;--bg-secondary:#d0e2f2;--bg-card:rgba(208,226,242,0.9);--text-primary:#0a192f;--text-secondary:#3a5070;--accent:#008b8b;--accent-rgb:0,139,139;--accent2:#1e6fbf;--accent2-rgb:30,111,191;--border:rgba(0,139,139,0.2);--border-hover:rgba(0,139,139,0.5);--shadow:rgba(0,50,100,0.15)}*{margin:0;padding:0;box-sizing:border-box}body{background:var(--bg-primary);color:var(--text-primary);font-family:'Noto Sans SC',sans-serif;overflow-x:hidden;cursor:none;transition:background 0.6s ease}a,button{cursor:none}::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg-primary)}::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--accent),var(--accent2));border-radius:3px}.cursor-dot,.cursor-ring,.cursor-trail{position:fixed;pointer-events:none;z-index:10000}.cursor-dot{width:8px;height:8px;background:var(--accent);border-radius:50%;transform:translate(-50%,-50%);box-shadow:0 0 10px var(--accent)}#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none}.bg-gradient{position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse at 20% 80%,rgba(var(--accent2-rgb),0.08),transparent 50%),radial-gradient(ellipse at 80% 20%,rgba(var(--accent-rgb),0.06),transparent 50%),radial-gradient(ellipse at 50% 50%,var(--bg-secondary) 0%,var(--bg-primary) 70%)}.grid-overlay{position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(var(--accent-rgb),0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--accent-rgb),0.03) 1px,transparent 1px);background-size:60px 60px}.wave-parallax{position:fixed;z-index:0;pointer-events:none}.theme-toggle{position:fixed;bottom:2rem;left:2rem;z-index:1001;padding:0.7rem 1.4rem;border-radius:50px;background:linear-gradient(135deg,rgba(var(--accent-rgb),0.3),rgba(var(--accent2-rgb),0.2));border:2px solid var(--accent);color:var(--accent);display:flex;align-items:center;gap:0.6rem;font-size:0.9rem;cursor:none;transition:all 0.4s ease;backdrop-filter:blur(15px);box-shadow:0 0 25px rgba(var(--accent-rgb),0.35),0 4px 20px rgba(0,0,0,0.3);animation:themeFloat 3s ease-in-out infinite,themePulse 2s ease-in-out infinite;font-family:inherit;letter-spacing:0.02em}html.light .theme-toggle{border-color:var(--accent);background:linear-gradient(135deg,rgba(var(--accent-rgb),0.25),rgba(var(--accent2-rgb),0.15));box-shadow:0 0 25px rgba(var(--accent-rgb),0.25),0 4px 20px rgba(0,0,0,0.1)}.theme-toggle:hover{transform:scale(1.1) translateY(-3px);box-shadow:0 0 50px rgba(var(--accent-rgb),0.6),0 8px 30px rgba(0,0,0,0.4);animation:none}.theme-toggle i{font-size:1.1rem}@keyframes themePulse{0%,100%{box-shadow:0 0 25px rgba(var(--accent-rgb),0.35),0 4px 20px rgba(0,0,0,0.3)}50%{box-shadow:0 0 45px rgba(var(--accent-rgb),0.55),0 0 70px rgba(var(--accent2-rgb),0.2),0 4px 20px rgba(0,0,0,0.3)}}@keyframes themeFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}#navbar{position:fixed;top:0;left:0;width:100%;padding:1rem 2rem;z-index:1000;transition:all 0.4s ease;background:transparent}#navbar.scrolled{background:rgba(5,16,32,0.85);backdrop-filter:blur(20px);box-shadow:0 4px 30px var(--shadow)}html.light #navbar.scrolled{background:rgba(232,240,248,0.85)}.nav-link{position:relative;color:var(--text-primary);transition:color 0.3s;padding:0.5rem 0}.nav-link::before{content:'';position:absolute;bottom:0;left:50%;width:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:all 0.3s;transform:translateX(-50%)}.nav-link:hover{color:var(--accent)}.nav-link:hover::before{width:100%}.fade-in{opacity:0;transform:translateY(40px);transition:all 0.9s cubic-bezier(0.23,1,0.32,1)}.fade-in.visible{opacity:1;transform:translateY(0)}.gradient-text{background:linear-gradient(135deg,var(--accent),var(--accent2),var(--accent));background-size:200% 200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:gradFlow 4s ease infinite}@keyframes gradFlow{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}.calligraphy-bg{position:absolute;font-family:'Ma Shan Zheng',cursive;font-size:clamp(8rem,22vw,18rem);color:rgba(var(--accent-rgb),0.03);pointer-events:none;user-select:none;z-index:0}.section-tag{display:inline-flex;align-items:center;gap:0.5rem;padding:0.4rem 1rem;background:rgba(var(--accent-rgb),0.08);border:1px solid var(--border);border-radius:50px;color:var(--accent);font-size:0.85rem;font-family:'Courier New',monospace}.thanks-hero{position:relative;background:var(--bg-card);border:1px solid var(--border);border-radius:24px;padding:3rem 2.5rem;backdrop-filter:blur(10px);overflow:hidden;transition:all 0.5s}.thanks-hero::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--accent),var(--accent2),var(--accent),transparent)}.thanks-hero::after{content:'';position:absolute;inset:0;border-radius:24px;padding:1px;background:linear-gradient(135deg,rgba(var(--accent-rgb),0.3),transparent 40%,rgba(var(--accent2-rgb),0.3));-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;opacity:0.6}
+.thanks-wave-decor{position:absolute;bottom:0;left:0;right:0;height:120px;opacity:0.08;pointer-events:none}
+.thanks-heart{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,rgba(var(--accent-rgb),0.15),rgba(var(--accent2-rgb),0.1));display:flex;align-items:center;justify-content:center;border:1px solid var(--border);margin:0 auto 2rem;position:relative;animation:heartPulse 2s ease-in-out infinite}.thanks-heart i{font-size:2rem;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}.thanks-heart::before{content:'';position:absolute;inset:-8px;border-radius:50%;border:2px solid var(--accent);opacity:0.3;animation:heartRing 2s ease-out infinite}@keyframes heartPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}@keyframes heartRing{0%{transform:scale(1);opacity:0.5}100%{transform:scale(1.5);opacity:0}}
+.thanks-text{font-size:1.1rem;line-height:2;color:var(--text-primary);position:relative;z-index:1;text-indent:2em}
+.thanks-text .highlight{color:var(--accent);font-weight:500}
+.thanks-quote{font-family:'Ma Shan Zheng',cursive;font-size:clamp(1.5rem,4vw,2.5rem);text-align:center;margin:2.5rem 0 1rem;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.5}
+.thanks-keywords{display:flex;flex-wrap:wrap;gap:0.8rem;justify-content:center;margin-top:2rem}
+.keyword-tag{padding:0.6rem 1.2rem;border-radius:50px;font-size:0.85rem;background:linear-gradient(135deg,rgba(var(--accent-rgb),0.1),rgba(var(--accent2-rgb),0.05));border:1px solid var(--border);color:var(--accent);font-family:'Courier New',monospace;transition:all 0.3s;position:relative;overflow:hidden}.keyword-tag::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(var(--accent-rgb),0.15),transparent);transition:left 0.5s}.keyword-tag:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:0 8px 20px rgba(var(--accent-rgb),0.15)}.keyword-tag:hover::before{left:100%}
+.thanks-signature{text-align:right;margin-top:2.5rem;font-family:'Ma Shan Zheng',cursive;font-size:1.3rem;color:var(--accent);opacity:0.8}
+main,footer{position:relative;z-index:10}#mobileMenu.hidden{display:none!important}
+.back-home{position:fixed;bottom:2rem;right:2rem;z-index:100;width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,rgba(var(--accent-rgb),0.25),rgba(var(--accent2-rgb),0.15));border:2px solid var(--accent);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:1.4rem;text-decoration:none;transition:all 0.4s cubic-bezier(0.23,1,0.32,1);backdrop-filter:blur(15px);box-shadow:0 0 25px rgba(var(--accent-rgb),0.4),0 4px 20px rgba(0,0,0,0.3)}.back-home:hover{background:linear-gradient(135deg,rgba(var(--accent-rgb),0.4),rgba(var(--accent2-rgb),0.3));transform:scale(1.12) translateY(-3px);box-shadow:0 0 40px rgba(var(--accent-rgb),0.6),0 8px 30px rgba(0,0,0,0.4);border-color:var(--accent2)}
+img{max-width:100%;height:auto;display:block}
+.mobile-tab-bar{display:none}
+@media(min-width:769px) and (max-width:1024px){
+  body{cursor:auto;-webkit-tap-highlight-color:transparent}
+  a,button{cursor:pointer}
+  #navbar{padding:1rem 1.5rem}
+  main{padding-top:6rem!important;padding-bottom:3rem!important}
+  .calligraphy-bg{font-size:7rem!important;opacity:0.03}
+  h1.text-4xl{font-size:2.5rem!important}
+  p{font-size:1rem!important;line-height:1.8}
+  .thanks-hero{padding:2.5rem 2rem!important;border-radius:20px}
+  .thanks-text{font-size:1.05rem!important;line-height:1.9}
+  .thanks-heart{width:72px!important;height:72px!important;margin-bottom:1.8rem}
+  .thanks-heart i{font-size:1.8rem!important}
+  .keyword-tag{padding:0.55rem 1.1rem;font-size:0.82rem}
+  .section-tag{padding:0.4rem 0.9rem;font-size:0.8rem}
+  .theme-toggle{padding:0.7rem 1rem!important;font-size:0.85rem;bottom:1.5rem!important;left:1.5rem!important}
+  .theme-toggle span{display:inline!important}
+  .back-home{bottom:1.5rem!important;right:1.5rem!important;width:52px!important;height:52px!important}
+  .mobile-tab-bar{display:none!important}
+  #menuBtn{display:none!important}
+  #mobileMenu{display:none!important}
+}
+@media(max-width:768px){
+  html{height:100%}
+  body{min-height:100%;position:relative;overflow-y:auto!important}
+  html,body{width:100%!important;overflow-x:hidden!important}
+  .splash-screen{display:none!important}
+  body{cursor:auto;-webkit-tap-highlight-color:transparent}
+  .fade-in{opacity:1!important;transform:none!important;filter:none!important}
+  a,button{cursor:pointer;min-height:44px;min-width:44px}
+  .cursor-dot,.cursor-ring,.cursor-trail{display:none!important}
+  #navbar{padding:0.8rem 1rem}
+  #navbar .hidden.md-flex{display:none!important}
+  #menuBtn{display:none!important}
+  #mobileMenu{display:none!important}
+  main{
+    position:relative!important;
+    z-index:10!important;
+    padding-top:5rem!important;
+    padding-bottom:calc(64px + env(safe-area-inset-bottom))!important;
+    min-height:100vh;
+    box-sizing:border-box;
+    overflow-x:hidden
+  }
+  .calligraphy-bg{font-size:5rem!important;opacity:0.04}
+  h1.text-4xl{font-size:2rem!important}
+  p{font-size:0.95rem!important;line-height:1.8}
+  .thanks-hero{padding:2rem 1.5rem!important;border-radius:20px}
+  .thanks-text{font-size:1rem!important;line-height:1.9}
+  .thanks-heart{width:65px!important;height:65px!important;margin-bottom:1.5rem}
+  .thanks-heart i{font-size:1.6rem!important}
+  .keyword-tag{padding:0.5rem 1rem;font-size:0.8rem}
+  .section-tag{padding:0.4rem 0.8rem;font-size:0.75rem}
+  .theme-toggle{padding:0.7rem!important;font-size:0.8rem;bottom:calc(5rem + env(safe-area-inset-bottom))!important;left:1rem!important;box-shadow:0 0 20px rgba(var(--accent-rgb),0.3)!important}
+  .theme-toggle span{display:inline!important;font-size:0.75rem}
+  .theme-toggle i{font-size:1rem!important}
+  .back-home{display:none!important}
+  .page-footer{padding:2rem 1rem calc(64px + env(safe-area-inset-bottom)) 1rem}
+  .mobile-tab-bar{
+    position:fixed!important;
+    bottom:0!important;
+    left:0!important;
+    right:0!important;
+    top:auto!important;
+    height:auto!important;
+    width:100%!important;
+    z-index:9999!important;
+    display:flex!important;
+    justify-content:space-around;
+    align-items:center;
+    padding:0.5rem 0 calc(0.5rem + env(safe-area-inset-bottom)) 0;
+    background:linear-gradient(180deg,rgba(var(--bg-primary),0.92) 0%,var(--bg-primary) 35%);
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
+    border-top:1px solid var(--border);
+    box-shadow:0 -4px 30px rgba(0,0,0,0.3);
+    flex-shrink:0
+  }
+  html.light .mobile-tab-bar{background:linear-gradient(180deg,rgba(232,240,248,0.9) 0%,var(--bg-primary) 30%);box-shadow:0 -4px 20px rgba(0,50,100,0.1)}
+  .tab-item{
+    display:flex;flex-direction:column;align-items:center;gap:0.15rem;
+    padding:0.4rem 0.2rem;text-decoration:none;color:var(--text-secondary);
+    font-size:0.6rem;transition:all 0.3s ease;min-width:44px;min-height:48px;
+    justify-content:center
+  }
+  .tab-item i{font-size:1.1rem;transition:all 0.3s ease}
+  .tab-item.active{color:var(--accent)}
+  .tab-item.active i{transform:scale(1.2);text-shadow:0 0 12px var(--accent)}
+  .tab-item:active{transform:scale(0.9)}
+}</style>
+</head>
+<body>
+<script>
+(function(){
+  function showAll(){
+    try{
+      var els=document.getElementsByClassName('fade-in');
+      for(var i=0;i<els.length;i++){els[i].style.opacity='1';els[i].style.transform='none';els[i].style.filter='none'}
+      var m=document.getElementsByTagName('main');for(var j=0;j<m.length;j++){m[j].style.position='relative';m[j].style.zIndex='10'}
+    }catch(e){}
+  }
+  if(document.readyState==='complete'||document.readyState==='interactive'){showAll();setTimeout(showAll,100)}
+  else{document.addEventListener('DOMContentLoaded',showAll)}
+  window.addEventListener('load',showAll);
+  setTimeout(showAll,500);setTimeout(showAll,1500);setTimeout(showAll,3000);
+})();
+</script>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+    <canvas id="bg-canvas"></canvas>
+    <div class="bg-gradient"></div>
+    <div class="grid-overlay"></div>
+    <svg class="wave-parallax" id="wave1" style="bottom:0;left:0;width:100%;height:350px;opacity:0.1" viewBox="0 0 1440 350" preserveAspectRatio="none"><path id="wavePath1" fill="var(--accent)" d="M0,200Q240,120,480,180T960,170T1440,190L1440,350L0,350Z"/></svg>
+    <svg class="wave-parallax" id="wave2" style="bottom:0;left:0;width:100%;height:280px;opacity:0.07" viewBox="0 0 1440 280" preserveAspectRatio="none"><path id="wavePath2" fill="var(--accent2)" d="M0,180Q360,100,720,150T1440,140L1440,280L0,280Z"/></svg>
+    <button class="theme-toggle" id="themeBtn"><i class="fa fa-moon-o" id="themeIcon"></i><span id="themeText">点我切换亮色</span></button>
+    <nav id="navbar"><div class="max-w-7xl mx-auto flex justify-between items-center">
+        <a href="index.html" class="text-2xl gradient-text font-bold" style="font-family:'Ma Shan Zheng',cursive">诗雨</a>
+        <div class="hidden md:flex gap-8 text-sm">
+            <a href="index.html" class="nav-link">首页</a><a href="education.html" class="nav-link">教育背景</a><a href="skills.html" class="nav-link">专业技能</a><a href="projects.html" class="nav-link">AI编程实战</a><a href="portfolio.html" class="nav-link">作品集</a><a href="thanks.html" class="nav-link" style="color:var(--accent)">鸣谢浪尖儿</a><a href="messages.html" class="nav-link">留言板</a>
+        </div>
+        <button id="menuBtn" class="md:hidden text-2xl" style="color:var(--accent)"><i class="fa fa-bars"></i></button>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden mt-4 p-4 rounded-xl backdrop-blur-xl flex flex-col gap-4 text-center" style="background:var(--bg-card);border:1px solid var(--border)">
+        <a href="index.html" class="nav-link py-2">首页</a><a href="education.html" class="nav-link py-2">教育背景</a><a href="skills.html" class="nav-link py-2">专业技能</a><a href="projects.html" class="nav-link py-2">AI编程实战</a><a href="portfolio.html" class="nav-link py-2">作品集</a><a href="thanks.html" class="nav-link py-2" style="color:var(--accent)">鸣谢浪尖儿</a><a href="messages.html" class="nav-link py-2">留言板</a>
+    </div></nav>
+    <a href="index.html" class="back-home" title="返回首页"><i class="fa fa-home"></i></a>
+    <main class="relative z-10 pt-32 pb-20 px-4 md:px-8">
+        <div class="calligraphy-bg top-16 -left-8 parallax-decor" data-speed="0.3" style="transform:rotate(-8deg)">恩</div>
+        <div class="calligraphy-bg bottom-16 -right-8 parallax-decor" data-speed="0.2" style="transform:rotate(8deg)">谢</div>
+        <div class="max-w-3xl mx-auto relative z-10">
+            <div class="text-center mb-12 fade-in">
+                <div class="section-tag mx-auto mb-6"><i class="fa fa-heart"></i><span>THANKS · 鸣谢</span></div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 gradient-text">鸣谢浪尖儿社区</h1>
+                <p style="color:var(--text-secondary)">感恩遇见，破浪前行</p>
+                <div class="w-20 h-0.5 mx-auto mt-6" style="background:linear-gradient(90deg,transparent,var(--accent),transparent)"></div>
+            </div>
+            <div class="thanks-hero fade-in" style="transition-delay:0.2s">
+                <svg class="thanks-wave-decor" viewBox="0 0 600 120" preserveAspectRatio="none">
+                    <path d="M0 80 Q100 30 200 60 T400 50 T600 70 L600 120 L0 120 Z" fill="var(--accent)"/>
+                    <path d="M0 90 Q150 50 300 75 T600 65" stroke="var(--accent2)" stroke-width="1.5" fill="none" opacity="0.6"/>
+                    <circle cx="100" cy="60" r="4" fill="var(--accent)" opacity="0.4"/>
+                    <circle cx="300" cy="50" r="3" fill="var(--accent2)" opacity="0.4"/>
+                    <circle cx="500" cy="55" r="4" fill="var(--accent)" opacity="0.3"/>
+                </svg>
+                <div class="thanks-heart"><i class="fa fa-heart"></i></div>
+                <p class="thanks-text">
+                    感恩遇见<span class="highlight">浪尖大学生社区</span>。在这里，我不断探索、突破自我，寻找到成长与进步的方向。有幸结识众多志同道合的学长与同路人，相互交流、共同进步。这段经历弥足珍贵，我也将带着收获继续奔赴前路。
+                </p>
+                <div class="thanks-quote">浮舟沧海 · 立马昆仑</div>
+                <div class="thanks-keywords">
+                    <span class="keyword-tag"><i class="fa fa-users mr-1"></i>志同道合</span>
+                    <span class="keyword-tag"><i class="fa fa-compass mr-1"></i>探索突破</span>
+                    <span class="keyword-tag"><i class="fa fa-rocket mr-1"></i>破浪前行</span>
+                    <span class="keyword-tag"><i class="fa fa-star mr-1"></i>感恩遇见</span>
+                </div>
+                <div class="thanks-signature">—— 陈诗雨</div>
+            </div>
+        </div>
+    </main>
+    <footer class="relative z-10 py-8 text-center border-t page-footer" style="border-color:var(--border)">
+        <p class="font-calligraphy text-2xl" style="color:var(--accent);font-family:'Ma Shan Zheng',cursive">浮舟沧海 · 立马昆仑</p>
+    </footer>
+    <nav class="mobile-tab-bar" id="mobileTabBar">
+        <a href="index.html" class="tab-item"><i class="fa fa-home"></i><span>首页</span></a>
+        <a href="skills.html" class="tab-item"><i class="fa fa-cogs"></i><span>技能</span></a>
+        <a href="projects.html" class="tab-item"><i class="fa fa-code"></i><span>项目</span></a>
+        <a href="portfolio.html" class="tab-item"><i class="fa fa-trophy"></i><span>作品</span></a>
+        <a href="thanks.html" class="tab-item active"><i class="fa fa-heart"></i><span>鸣谢</span></a>
+        <a href="messages.html" class="tab-item"><i class="fa fa-comments"></i><span>留言</span></a>
+    </nav>
+    <script>
+    (function(){
+        const dot=document.getElementById('cursorDot'),ring=document.getElementById('cursorRing');
+        let mx=innerWidth/2,my=innerHeight/2,rx=mx,ry=my;const isTouch='ontouchstart' in window;
+        if(!isTouch){document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';if(Math.random()<0.4){const t=document.createElement('div');t.className='cursor-trail';const s=Math.random()*8+4;t.style.cssText=`position:fixed;width:${s}px;height:${s}px;border-radius:50%;left:${mx}px;top:${my}px;background:${Math.random()>0.5?'var(--accent)':'var(--accent2)'};opacity:0.6;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);box-shadow:0 0 ${s*2}px ${Math.random()>0.5?'var(--accent)':'var(--accent2)'}`;document.body.appendChild(t);setTimeout(()=>t.remove(),600)}});(function a(){rx+=(mx-rx)*0.15;ry+=(my-ry)*0.15;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(a)})();ring.style.cssText=`position:fixed;width:40px;height:40px;border:2px solid var(--accent);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);box-shadow:0 0 15px rgba(var(--accent-rgb),0.3),inset 0 0 15px rgba(var(--accent-rgb),0.1);transition:width 0.2s,height 0.2s,border-color 0.2s`;document.querySelectorAll('a,button').forEach(el=>{el.addEventListener('mouseenter',()=>{ring.style.width='60px';ring.style.height='60px';ring.style.borderColor='var(--accent2)'});el.addEventListener('mouseleave',()=>{ring.style.width='40px';ring.style.height='40px';ring.style.borderColor='var(--accent)'})})}
+        const tb=document.getElementById('themeBtn'),ti=document.getElementById('themeIcon'),tt=document.getElementById('themeText');const s=localStorage.getItem('surf_theme');if(s==='light'){document.documentElement.classList.add('light');ti.className='fa fa-sun-o';if(tt)tt.textContent='点我切换暗色'}else{if(tt)tt.textContent='点我切换亮色'}tb.addEventListener('click',()=>{const l=document.documentElement.classList.toggle('light');localStorage.setItem('surf_theme',l?'light':'dark');ti.className=l?'fa fa-sun-o':'fa fa-moon-o';if(tt)tt.textContent=l?'点我切换暗色':'点我切换亮色'});
+        const canvas=document.getElementById('bg-canvas'),ctx=canvas.getContext('2d');let W,H,ps=[],rs=[],mouse={x:-9999,y:-9999,active:false},fp=[];
+        function rs2(){W=canvas.width=innerWidth;H=canvas.height=innerHeight}class P{constructor(){this.rst()}rst(){this.x=Math.random()*W;this.y=Math.random()*H;this.vx=(Math.random()-0.5)*0.4;this.vy=(Math.random()-0.5)*0.3-0.2;this.r=Math.random()*3+1.5;this.a=Math.random()*0.5+0.3;this.h=Math.random()>0.6?200:170;this.t=[];this.mt=Math.floor(Math.random()*12)+6;this.p=Math.random()*Math.PI*2}upd(){this.t.push({x:this.x,y:this.y});if(this.t.length>this.mt)this.t.shift();this.p+=0.02;this.x+=this.vx+Math.sin(this.p)*0.3;this.y+=this.vy;if(mouse.active){const dx=mouse.x-this.x,dy=mouse.y-this.y,d=Math.sqrt(dx*dx+dy*dy);if(d<200){const f=(200-d)/200;this.x-=dx/d*f*3;this.y-=dy/d*f*3;this.a=Math.min(1,this.a+0.05)}}for(const p of fp){const dx=p.x-this.x,dy=p.y-this.y,d=Math.sqrt(dx*dx+dy*dy);if(d<80){const f=(80-d)/80*0.5;this.x+=dx/d*f;this.y+=dy/d*f}}if(this.x<-20)this.x=W+20;if(this.x>W+20)this.x=-20;if(this.y<-20)this.y=H+20;if(this.y>H+20)this.y=-20;this.a=Math.max(0.2,Math.min(0.9,this.a*0.995+Math.random()*0.02))}draw(){const c=this.h===170?'100,255,218':'30,144,255';for(let i=0;i<this.t.length;i++){const t=this.t[i],a=i/this.t.length*this.a*0.25;ctx.beginPath();ctx.arc(t.x,t.y,this.r*(i/this.t.length)*0.8,0,Math.PI*2);ctx.fillStyle=`rgba(${c},${a})`;ctx.fill()}ctx.beginPath();ctx.arc(this.x,this.y,this.r,0,Math.PI*2);ctx.fillStyle=`rgba(${c},${this.a})`;ctx.fill();const g=ctx.createRadialGradient(this.x,this.y,0,this.x,this.y,this.r*5);g.addColorStop(0,`rgba(${c},${this.a*0.3})`);g.addColorStop(1,`rgba(${c},0)`);ctx.beginPath();ctx.arc(this.x,this.y,this.r*5,0,Math.PI*2);ctx.fillStyle=g;ctx.fill()}}class R{constructor(x,y){this.x=x;this.y=y;this.r=0;this.a=0.6}upd(){this.r+=4;this.a-=0.008;return this.a>0}draw(){ctx.beginPath();ctx.arc(this.x,this.y,this.r,0,Math.PI*2);ctx.strokeStyle=`rgba(100,255,218,${this.a})`;ctx.lineWidth=2;ctx.stroke();ctx.beginPath();ctx.arc(this.x,this.y,this.r*0.6,0,Math.PI*2);ctx.strokeStyle=`rgba(30,144,255,${this.a*0.5})`;ctx.lineWidth=1;ctx.stroke()}}class FP{constructor(x,y){this.x=x;this.y=y;this.vx=(Math.random()-0.5)*2;this.vy=(Math.random()-0.5)*2;this.life=1;this.r=Math.random()*4+2;this.h=Math.random()>0.5?170:200}upd(){this.x+=this.vx+(mouse.x-this.x)*0.02;this.y+=this.vy+(mouse.y-this.y)*0.02;this.vx*=0.98;this.vy*=0.98;this.life-=0.015;return this.life>0}draw(){const c=this.h===170?'100,255,218':'30,144,255';ctx.beginPath();ctx.arc(this.x,this.y,this.r*this.life,0,Math.PI*2);ctx.fillStyle=`rgba(${c},${this.life*0.8})`;ctx.fill()}}
+        function init(){rs2();ps=[];const n=isTouch?35:Math.min(120,Math.floor(W*H/11000));for(let i=0;i<n;i++)ps.push(new P())}function conn(){for(let i=0;i<ps.length;i++)for(let j=i+1;j<ps.length;j++){const dx=ps[i].x-ps[j].x,dy=ps[i].y-ps[j].y,d=Math.sqrt(dx*dx+dy*dy);if(d<120){ctx.beginPath();ctx.strokeStyle=`rgba(100,255,218,${0.08*(1-d/120)})`;ctx.lineWidth=0.6;ctx.moveTo(ps[i].x,ps[i].y);ctx.lineTo(ps[j].x,ps[j].y);ctx.stroke()}}}function loop(){ctx.clearRect(0,0,W,H);if(mouse.active&&Math.random()<(isTouch?0.5:0.3))fp.push(new FP(mouse.x,mouse.y));fp=fp.filter(p=>p.upd()?(p.draw(),true):false);ps.forEach(p=>{p.upd();p.draw()});conn();rs=rs.filter(r=>r.upd()?(r.draw(),true):false);requestAnimationFrame(loop)}
+        addEventListener('resize',init);
+        if(!isTouch){
+            addEventListener('mousemove',e=>{mouse.x=e.clientX;mouse.y=e.clientY;mouse.active=true});
+            addEventListener('mouseleave',()=>mouse.active=false);
+        }else{
+            let lastTouch=null;
+            addEventListener('touchstart',e=>{const t=e.touches[0];mouse.x=t.clientX;mouse.y=t.clientY;mouse.active=true;lastTouch={x:t.clientX,y:t.clientY};rs.push(new R(t.clientX,t.clientY));for(let i=0;i<8;i++)fp.push(new FP(t.clientX,t.clientY))},{passive:true});
+            addEventListener('touchmove',e=>{const t=e.touches[0];mouse.x=t.clientX;mouse.y=t.clientY;mouse.active=true;lastTouch={x:t.clientX,y:t.clientY}},{passive:true});
+            addEventListener('touchend',()=>{mouse.active=false;lastTouch=null});
+        }
+        addEventListener('click',e=>rs.push(new R(e.clientX,e.clientY)));init();loop();
+        function uW(wp,b,a,mx2,my2,o){const pts=[];for(let x=0;x<=1440;x+=60){let y=b+Math.sin((x+o)*0.008+Date.now()*0.001)*a;y+=Math.sin((x+o)*0.003-Date.now()*0.0007)*a*0.5;const dx=mx2/innerWidth*1440-x,dy=my2/innerHeight*300-150,di=Math.sqrt(dx*dx+dy*dy);if(di<300)y-=(300-di)/300*40;pts.push({x,y})}let d=`M0,${pts[0].y}`;for(let i=1;i<pts.length-1;i++){const xc=(pts[i].x+pts[i+1].x)/2,yc=(pts[i].y+pts[i+1].y)/2;d+=` Q${pts[i].x},${pts[i].y} ${xc},${yc}`}return d+` L1440,${pts[pts.length-1].y} L1440,600 L0,600 Z`}let wo=0;(function aW(){wo+=0.5;if(mouse.active){const w1=document.getElementById('wavePath1'),w2=document.getElementById('wavePath2');if(w1)w1.setAttribute('d',uW(w1,180,40,mouse.x,mouse.y,wo));if(w2)w2.setAttribute('d',uW(w2,150,30,mouse.x,mouse.y,-wo))}requestAnimationFrame(aW)})();
+        addEventListener('scroll',()=>{const sy=scrollY;document.getElementById('navbar')?.classList.toggle('scrolled',sy>30);document.querySelectorAll('.parallax-decor').forEach(el=>{const sp=parseFloat(el.dataset.speed)||0.3;el.style.transform=el.style.transform.replace(/translateY\([^)]*\)/,'')+` translateY(${-sy*sp}px)`});const w1e=document.getElementById('wave1');if(w1e)w1e.style.transform=`translateY(${sy*0.1}px)`;const w2e=document.getElementById('wave2');if(w2e)w2e.style.transform=`translateY(${sy*0.15}px)`});
+        const mb=document.getElementById('menuBtn');if(mb)mb.addEventListener('click',()=>document.getElementById('mobileMenu').classList.toggle('hidden'));document.querySelectorAll('#mobileMenu a').forEach(a=>a.addEventListener('click',()=>document.getElementById('mobileMenu').classList.add('hidden')));
+        const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:0.1});document.querySelectorAll('.fade-in').forEach(el=>o.observe(el));
+        setTimeout(()=>{document.querySelectorAll('.fade-in:not(.visible)').forEach((el,i)=>{setTimeout(()=>el.classList.add('visible'),i*100)})},2000);
+    })();
+    </script>
+<script>
+(function(){
+    function showFadeIns(){
+        try{
+            var els=document.querySelectorAll('.fade-in:not(.visible)');
+            for(var i=0;i<els.length;i++){
+                (function(idx){
+                    setTimeout(function(){els[idx]&&els[idx].classList.add('visible')},idx*60);
+                })(i);
+            }
+        }catch(e){}
+    }
+    if(document.readyState==='loading'){
+        document.addEventListener('DOMContentLoaded',function(){setTimeout(showFadeIns,300)});
+    }else{
+        setTimeout(showFadeIns,300);
+    }
+    setTimeout(showFadeIns,1200);
+    setTimeout(showFadeIns,2500);
+    window.addEventListener('scroll',showFadeIns);
+})();
+</script>
+</body>
+</html>
